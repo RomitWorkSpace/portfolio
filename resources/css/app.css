@@ -1,0 +1,11 @@
+.bold{
+    font-weight:800;
+}
+.text-justify{
+    text-align:justify;
+}
+.about-wrapper{
+    border:3px dashed #daa60c;
+    border-radius:8px;
+    background-color:#eee;
+}
