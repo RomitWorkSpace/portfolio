@@ -3,8 +3,8 @@ import React from 'react'
 function AboutSection() {
     return (
         <>
-        <div className='container-fluid pt-5 pb-5' style={{boxShadow:'1px 1px 15px #111'}}>
-            <h3 className='text-center bold'>ABOUT ME</h3>
+        <div className='container-fluid pt-5 pb-5' style={{boxShadow:'1px 1px 15px #111',backgroundColor:'#fff'}}>
+            <h2 className='text-center bold lily-script'>About Me</h2>
             <div className='container text-justify pt-4'>
                 <div className='row'>
                     <div className='col-md-2'></div>
@@ -16,6 +16,9 @@ function AboutSection() {
                     </div>
                     <div className='col-md-2'></div>
                 </div>
+            </div>
+            <div className='container pt-5 mt-4'>
+                <h2 className='text-center bold lily-script'>Education / Qualification</h2>
             </div>
         </div>
         </>
